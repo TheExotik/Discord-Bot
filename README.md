@@ -1,20 +1,11 @@
-# Slimefun4 Addon
-This is an example Repository for a generic Slimefun4 Addon.
-In the top left is a button "Use this template", click this to create your own Addon for Slimefun4 using this basic template.
+# Discord Bot
+- Here some features bot can do:
 
-## How to create your own addon.
-This is a template repository that you can use to create your own Slimefun4 Addon.<br>
-We have also written an extensive step-by-step tutorial which you can find here:<br>
-https://github.com/Slimefun/Slimefun4/wiki/Developer-Guide
+- Clear (Use: !clear ; [amount] )![clear](https://github.com/TheExotik/Discord-Bot/assets/97954441/d3d06cc7-f955-4249-8b9f-ab5e84c08edf)
+- Commands (Use: !commands ) ![commands](https://github.com/TheExotik/Discord-Bot/assets/97954441/f3582143-a489-426c-84b9-347737683f26)
+- Filters (Remove "ugly" words/links) ![filter](https://github.com/TheExotik/Discord-Bot/assets/97954441/ea2a7eb2-5d3c-4852-92ee-846f7ab888ec)
+- Help and Servers (Use: !help and !servers ) ![help-servers](https://github.com/TheExotik/Discord-Bot/assets/97954441/ade51899-a697-48af-aa61-f6532edd07f7)
+- Repeat (Use: !repeat ; [message] ; [delay] ; [duration] ) ![repeat](https://github.com/TheExotik/Discord-Bot/assets/97954441/3bded064-f54d-4cc4-8e09-088fd9961702)
+- Support/Ticket (Interaction buttons) ![support](https://github.com/TheExotik/Discord-Bot/assets/97954441/491a6d67-7e10-4efa-839e-9d12d7fc9be8)
+- Verify (Interaction button) ![verify](https://github.com/TheExotik/Discord-Bot/assets/97954441/28c87fe8-705d-465d-aefe-52a2a0ad8f43)
 
-## Changing some important things
-Navigate to `src/main/java` and rename the package and the .java File to your liking.<br>
-Suggestion: "me.yourname.yourproject" (all lower case) and "ProjectName.java"<br>
-Example: "me.thebusybiscuit.cooladdon" and "CoolAddon.java"
-
-Navigate to `src/main/resources/plugin.yml` and change the "author" and "main" attributes.
-You may also want to change the description to something meaningful.
-
-Navigate to `pom.xml` and change the group id to "me.%Your name%" and change the artifact id to the name of your Project.
-
-After that you are good to go, you can now start developing your own Addon for Slimefun4.
